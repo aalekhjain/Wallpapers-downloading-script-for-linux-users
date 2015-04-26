@@ -1,3 +1,4 @@
+#!/bin/bash
 print_style () {
 	for (( i = 0; i < 20; i++ )); do
 		printf "."
@@ -146,3 +147,4 @@ do
 	notify-send "Downloading finished for $content"
 	cd $current_dir
 done
+exit 0
